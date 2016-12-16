@@ -63,11 +63,14 @@ need to be copied in the following folder:
 After that, WildFly (in this case version 9.0.1.Final) can be started launching the **standalone.bat** (or
 **standalone.sh**) file. The following screen should appear:
 
+![image](https://cloud.githubusercontent.com/assets/24565161/21266479/b2108772-c3a6-11e6-84e5-100b46ce0c82.png)
 
 Therefore, the **BeanClient** can be started running the jar file in the dist folder of the client in this way:
 
 **java -jar BeanClient.jar**
 
 And the result should be similar to this:
+
+![image](https://cloud.githubusercontent.com/assets/24565161/21266500/c46d83d4-c3a6-11e6-8c95-6a137e0eb28d.png)
 
 It important to remember that the **BeanClient** requires the **jboss-client.jar** library to work correctly.
