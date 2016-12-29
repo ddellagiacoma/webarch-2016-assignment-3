@@ -67,7 +67,9 @@ After that, WildFly (in this case version 9.0.1.Final) can be started launching 
 
 Therefore, the **BeanClient** can be started running the jar file in the dist folder of the client in this way:
 
-**java -jar BeanClient.jar**
+```sh
+java -jar BeanClient.jar
+```
 
 And the result should be similar to this:
 
