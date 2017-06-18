@@ -1,6 +1,6 @@
 # Accessing an enterprise bean
 
-1. INTRODUCTION
+## 1. INTRODUCTION
 
 The topic of this assignment is the Enterprise JavaBean (EJB), which is a server-side software component
 that encapsulates the business logic of an application into a single object (the bean).
@@ -12,7 +12,7 @@ bean on WildFly.
 Moreover, the second part of the assignment consists of writing a client (a standard Java Application) which
 connects to the bean, asks twice the method on the bean and writes the result on screen.
 
-2. IMPLEMENTATION
+## 2. IMPLEMENTATION
 
 The Java Enterprise Application named **EntApp** is composed by the stateless EJB **DateTime**. The bean
 includes the method **print()** which return a string containing the current time and date.
